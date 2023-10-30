@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+}
+
+body {
+    background: #F0F2F5;
+}
+
+#container header {
+    position: relative;
+    top: 150px;
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.logo-facebook {
+    width: 300px;
+}
+
+.legenda-facebook {
+    width: 500px;
+    color: #1C1E21;
+    font-size: 32px;
+    margin: 0px 0px 0px 25px;
+}
+
+/* ------------------------------------------ */
+
+.box-section-2 {
+    background: #b6b1b1;
+    padding: 22px;
+    border-radius: 13px;
+    border: solid 1px rgb(221, 219, 219);
+    height: 340px;
+    width: 400px;
+}
+
+.email {
+    display: block;
+    margin: 0px 0px 15px 0px;
+    padding: 15px;
+    border-radius: 7px;
+    border: solid 1px #b4a7a7;
+    margin: 0 auto;
+    width: 350px;
+}
+
+.email:focus {
+    outline: none;
+    border-color: #23589c;
+}
+
+.senha {
+    position: relative;
+    top: 10px;
+    display: block;
+    padding: 15px;
+    border-radius: 7px;
+    border: solid 1px #b4a7a7;
+    margin: 0 auto;
+    width: 350px;
+}
+
+.senha:focus {
+    outline: none;
+    border-color: #1877F2;
+}
+
+
+
+.box-section-2 .enviar {
+    position: relative;
+    display: block;
+    padding: 13px;
+    border: solid 1px #adadad;
+    border-radius: 7px;
+    background: #1877F2;
+    color: #FFFFFF;
+    margin: 0 auto;
+    width: 350px;
+    top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.enviar:hover {
+    cursor: pointer;
+}
+
+.container-enviar {
+    text-decoration: none;
+}
+
+.esqueci-senha {
+    position: relative;
+    display: block;
+    text-align: center;
+    top: 40px;
+    color: rgb(43, 90, 179);
+}
+
+.box-section-2 .botao {
+    position: relative;
+    top: 73px;
+    left: 22%;
+    padding: 13px;
+    background: #36A420;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    width: 200px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.botao:hover {
+    cursor: pointer;
+    transition: 1s;
+    background: #47bb30;
+}
+
+.hr {
+    position: relative;
+    top: 10px;
+    width: 350px;
+}
+
+.criar-pagina-celebridade-facebook {
+    position: relative;
+    top: 200px;
+    left: 16.8%;
+    text-align: center;
+}
+
+.negrito, .criar-pagina-celebridade-facebook a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.negrito:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    background: #FFFFFF;
+}
